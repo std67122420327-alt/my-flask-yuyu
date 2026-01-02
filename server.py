@@ -23,3 +23,5 @@ def fav_foods():
 def fav_movie():
      movie = ['inazuma eleven', 'Free!', 'Diabolik lovers','Love Live! School Idol Project','La Storia Della Arcna Famiglia']
      return render_template('favorite_movie.html',title='My favprite movie page',movie=movie)
+
+app.run(host='0.0.0.0',port=10000)
