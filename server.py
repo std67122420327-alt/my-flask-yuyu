@@ -12,7 +12,7 @@ def info():
 @app.route('/favorite/sports')
 def fav_sports():
      sports = ['football', 'basketballl', 'ballet']
-     return render_template('favorite_sport.html',title='My favorite sports page',sports=sports)
+     return render_template('favorite_sports.html',title='My favorite sports page',sports=sports)
 
 @app.route('/favorite/foods')
 def fav_foods():
